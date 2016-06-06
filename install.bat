@@ -1,3 +1,4 @@
+@echo off
 REM Change this to your compiler FOLDER path
 set "compilerPath=%ProgramFiles%\CodeBlocks\MinGW\bin\"
 
@@ -5,7 +6,7 @@ set "compilerPath=%ProgramFiles%\CodeBlocks\MinGW\bin\"
 @cd /d "%~dp0"
 
 mkdir "%ProgramFiles%\CompetitiveFlow"
-copy cf-paste.py "%ProgramFiles%\CompetitiveFlow\cf-paste.py"
+copy cf-paste.py "%ProgramFiles%\CompetitiveFlow\cf-paste.pyw"
 copy cf-tool.py "%ProgramFiles%\CompetitiveFlow\cf-tool.py"
 @endlocal
 setx path "%PATH%%compilerPath%;%ProgramFiles%\CompetitiveFlow\"

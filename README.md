@@ -1,5 +1,7 @@
 # Competitive flow for CodeForces
 
+![Competitive flow](https://media.giphy.com/media/xT8qBhwuiiXczRZBAI/giphy.gif)
+
 This pair of scripts allow you to faster test your CF problems by avoiding insane habit of copy-pasting tests every time you change a line of code. It is also useful for building an index of all source files from competitions.
 
 It works by adding simple json object, enclosed in C++ comment, to source file with tests & info about the problem.
@@ -39,15 +41,8 @@ To make a shortcut for cf-paste
 
 Thats it! 
 
-Now you can test your program with 
+From now on you can test your program with 
 
 ```sh
 cf-tool CF-345A.cpp 
 ```
-
-## Contributing
-
-Fork the project, create a new branch, make your changes, and open a pull request.
-
-We use [Clear code](http://introcs.cs.princeton.edu/java/11style/) writing guidelines.
-This tool can convert nicely to pdf [MarkdownToPdf](http://www.markdowntopdf.com/)

@@ -33,16 +33,16 @@ cd competitive-flow
 install.bat
 ```
 To make a shortcut for cf-paste  
-1) Right click C:\Program Files\CompetitiveFlow\cf-paste.py and create shortcut  
-2) Right click shortcut file and go to properties select hidden  
-3) On Shortcut tab find Shortcut key: entry and add some shortcut (Ctrl+Alt+V)  
+1. Right click C:\Program Files\CompetitiveFlow\cf-paste.py and create shortcut  
+2. Right click shortcut file and go to properties select hidden  
+3. On Shortcut tab find Shortcut key: entry and add some shortcut (Ctrl+Alt+V)  
 
 
 ## Usage in 3 easy steps
 
-1) Copy test samples from codeforces problem page including first "Input" string  
-2) Press shortcut to modify clipboard content with cf-paste  
-3) Paste into .cpp source file  
+1. Copy test samples from codeforces problem page including first "Input" string  
+2. Press shortcut to modify clipboard content with cf-paste  
+3. Paste into .cpp source file  
 
 Thats it! 
 

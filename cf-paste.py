@@ -60,3 +60,4 @@ for test_in, test_out in zip(in_array, out_array):
 # Save to clipboard as c++ commented JSON object
 clipboard_content = "/*\n" + json.dumps(json_out, indent=4) + "\n*/"
 pyperclip.copy(clipboard_content)
+pyperclip.paste()

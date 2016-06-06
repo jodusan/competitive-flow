@@ -16,8 +16,12 @@ from subprocess import PIPE, TimeoutExpired
 from collections import OrderedDict as oDict
 
 # Shell status colors
-OK_GREEN = '\033[92m'
-FAIL = '\033[91m'
+OK_GREEN = ''
+FAIL = ''
+if os.name != 'nt':
+	OK_GREEN = '\033[92m'
+	FAIL = '\033[91m'
+
 
 # Current directory of invoked script
 cwd = os.getcwd() + '/'

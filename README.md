@@ -13,7 +13,7 @@ pip install pyperclip
 git clone https://github.com/dulex123/competitive-flow && cd competitive-flow
 sudo ./install.sh
 ```
-Now you just need to assign shortcut for cf-paste command.
+Now you just need to assign shortcut for cf-paste command.  
 For gnome users this is in gnome-control-center -> keyboard -> Shortcuts -> Custom Shortcuts. (Super + V)
 
 ## Windows Installation
@@ -26,7 +26,7 @@ cd competitive-flow
 install.bat
 ```
 To make a shortcut for cf-paste  
-1) Right click C:\Program Files\CompetitiveFlow\cf-paste.py and create shortcut 
+1) Right click C:\Program Files\CompetitiveFlow\cf-paste.py and create shortcut  
 2) Right click shortcut file and go to properties select hidden  
 3) On Shortcut tab find Shortcut key: entry and add some shortcut (Ctrl+Alt+V)  
 

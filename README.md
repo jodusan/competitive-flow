@@ -23,8 +23,8 @@ For gnome users this is in gnome-control-center -> keyboard -> Shortcuts -> Cust
 
 ## Windows Installation
 
+- If you are not using codeblocks default installation dir for your compiler you need to change third line in install.bat to compiler bin folder that includes g++.exe.
 - You need to run install.bat with "Run as Admin" privileges.  
-- If you are not using codeblocks default installation dir for your compiler you need to change first line in install.bat to compiler bin folder that includes g++.exe.
 
 ```sh
 pip install pyperclip

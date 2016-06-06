@@ -50,5 +50,5 @@ Thats it!
 From now on you can test your program with 
 
 ```sh
-cf-tool program.cpp 
+cf-tool program.cpp # cf-tool.py on windows
 ```

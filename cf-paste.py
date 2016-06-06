@@ -4,7 +4,7 @@
 # within your source file as JSON object. It is designed to be used alongside
 # cf-tool that allows you to quickly test all test cases.
 #
-# https://github.com/dulex123/backpack/tree/master/cf-meta
+# https://github.com/dulex123/competitive-flow
 # --------------------------------------------------------------------------- #
 
 import json

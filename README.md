@@ -23,7 +23,9 @@ For gnome users this is in gnome-control-center -> keyboard -> Shortcuts -> Cust
 
 ## Windows Installation
 
-You need to run install.bat with "Run as Admin" privileges
+You need to run install.bat with "Run as Admin" privileges.  
+If you are not using codeblocks default installation dir you need to change first line in install.bat to compiler bin folder that includes g++.exe.
+
 ```sh
 pip install pyperclip
 git clone https://github.com/dulex123/competitive-flow

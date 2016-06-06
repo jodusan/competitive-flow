@@ -5,7 +5,7 @@
 # your source file as JSON object. Best way to do this is to use cf-paste
 # script.
 #
-# https://github.com/dulex123/backpack/tree/master/cf-meta
+# https://github.com/dulex123/competitive-flow
 # --------------------------------------------------------------------------- #
 import re
 import json

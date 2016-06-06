@@ -1,12 +1,15 @@
 # Competitive flow for CodeForces
 
-![Competitive flow](https://media.giphy.com/media/xT8qBhwuiiXczRZBAI/giphy.gif)
 
 This pair of scripts allow you to faster test your CF problems by avoiding insane habit of copy-pasting tests every time you change a line of code. It is also useful for building an index of all source files from competitions.
 
 It works by adding simple json object, enclosed in C++ comment, to source file with tests & info about the problem.
 
 I suggest you use std::cerr for debug messages.
+
+![Competitive flow](https://media.giphy.com/media/xT8qBhwuiiXczRZBAI/giphy.gif)
+
+Or you can watch slower 30sec [youtube video](https://youtu.be/vFjqoGfHRBk)
 
 ## Ubuntu Installation
 
